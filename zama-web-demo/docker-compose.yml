@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  fhe-node-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fhe-node-demo
+    working_dir: /app
+    command: ["node", "example.js"]

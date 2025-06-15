@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WASM build outputs (from wasm-pack or similar)
+pkg/
+dist/
+target/
+*.wasm
+
+# Build artifacts
+build/
+.DS_Store
+
+# VSCode settings (optional, for team consistency)
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# dotenv environment variables
+.env
+.env.*
+
+# OS generated files
+Thumbs.db
